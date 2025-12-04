@@ -1,4 +1,4 @@
-f = open('input_day_1.txt', 'r')
+f = open('input_1.txt', 'r')
 content = f.read()
 
 dial_pos = 50
