@@ -8,7 +8,7 @@ for r in content.split(","):
     max = int(r.split("-")[1])
 
     for val in range(min,max):
-        if(str(val)[0:len(str(val))//2] == str(val)[len(str(val))//2:len(str(val))]):
+        if(str(val)[0:len(str(val))//2] == str(val)[len(str(val))//2:len(str(val))-1]):
             total += val
 
 print(total)
